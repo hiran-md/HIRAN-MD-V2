@@ -80,7 +80,7 @@ console.log('HIRAN-MD Bot connected to whatsapp ✅')
 
 let up = `Hiran-MD connected successfully ✅\n\nPREFIX: ${prefix}`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/900435c6d3157c98c3c88.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://github.com/hiran-md/HIRAN-MD-V2/blob/79e91e6aa36c112e896c52bcd5dcad0b7c300831/my_data/hiran-md.png` }, caption: up })
 
 }
 })
