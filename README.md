@@ -23,14 +23,9 @@ HIRANYA-SATHSARA has been designed to make things easier and fun while using Wha
  ## DEPLOYMENT METHODS
 
 <p align="center">
-<a href='https://eligible-martina-nadeen-md-wa-978de682.koyeb.app/' target="_blank"><img alt='Get Your Session' src='https://img.shields.io/badge/-Pair Code 01-darkgreen?style=for-the-badge&logo=Whatsapp&logoColor=white'/< width=115 height=28/p></a>
+<a href='https://shy-christy-hira-bot-f8f5eb15.koyeb.app/' target="_blank"><img alt='Get Your Session' src='https://img.shields.io/badge/-Pair Code 01-darkgreen?style=for-the-badge&logo=Whatsapp&logoColor=white'/< width=115 height=28/p></a>
 
-<p align="center">
-<a href='https://eligible-martina-nadeen-md-wa-978de682.koyeb.app/qr' target="_blank"><img alt='Pair Code 02' src='https://img.shields.io/badge/-QR Code -darkgreen?style=for-the-badge&logo=Whatsapp&logoColor=white'/< width=115 height=28/p></a>
 
-<p align="center">
-<a href='https://eligible-martina-nadeen-md-wa-978de682.koyeb.app/pair' target="_blank"><img alt='Pair Code 03' src='https://img.shields.io/badge/-Pair Code-darkgreen?style=for-the-badge&logo=Whatsapp&logoColor=white'/< width=115 height=28/p></a>
-  
 ### DEVELOPER:
 **GET In Touch with The Owner**
 - [**On YouTube**](https://www.youtube.com/@hiruwatech)
