@@ -78,9 +78,25 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('HIRAN-MD Bot connected to whatsapp ✅')
 
-let up = `Hiran-MD connected successfully ✅\n\nPREFIX: ${prefix}`;
+let up = `🚀 *_ʜɪʀᴀɴ - ᴍᴅ ᴄᴏɴɴᴇᴄᴛᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ!_* ✅ 
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://github.com/hiran-md/HIRAN-MD-V2/blob/79e91e6aa36c112e896c52bcd5dcad0b7c300831/my_data/hiran-md.png` }, caption: up })
+--- *💀🧨 _Welcome to 𝗛𝗜𝗥𝗔𝗡-𝗠𝗗!_* 🧨💀 
+
+*💥 PREFIX:* ${prefix}
+*💥 OWNER:* 94768698018
+*💥 MADE BY:* ʜɪʀᴀɴʏᴀ ꜱᴀᴛʜꜱᴀʀᴀ
+*💥 MODE:* ${work}
+
+> Thank you for using *HIRAN-MD 💗.*
+
+> *💠Join WhatsApp Group - :* https://chat.whatsapp.com/CVlyZJewWh87iS3mcMfEBQ
+> *💠Repo - :* https://github.com/hiran-md/HIRAN-MD V2
+
+> *POWERED BY HIRUWA TECH™*
+
+*👨‍💻ʜɪʀᴀɴ - ᴍᴅ ᴍᴀᴅᴇ ʙʏ ʜɪʀᴀɴʏꜱ ꜱᴀᴛʜꜱᴀʀᴀ👨‍💻* `;
+
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://raw.githubusercontent.com/hiran-md/DATA_BASE/refs/heads/main/autosticker/hiran-md.webp` }, caption: up })
 
 }
 })
