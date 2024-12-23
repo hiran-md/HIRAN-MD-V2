@@ -1,19 +1,17 @@
 const config = require('../config')
+const {readEnv} = require('../lib/database')
 const {cmd , commands} = require('../command')
-const os = require("os")
-const {runtime} = require('../lib/functions')
 
 cmd({
-    pattern: "list",
-    desc: "To get the list.",
-    react: "📁",
+    pattern: "menu",
+    desc: "get cmd list",
     category: "main",
+    react: "📁",
     filename: __filename
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-    
-
+const config = await readEnv();
 let menu = {
 main: '',
 download: '',
@@ -30,18 +28,16 @@ other: ''
 
 for (let i = 0; i < commands.length; i++) {
 if (commands[i].pattern && !commands[i].dontAddCommandList) {
-menu[commands[i].category] += `.${commands[i].pattern}\n`;
+menu[commands[i].category] += `${config.PREFIX}${commands[i].pattern}\n`;
  }
 }
 
-let madeMenu = ` *👋 Hello ${pushname}*
+let madeMenu = `👋 *Hello ${pushname} *
 
-✨ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗛𝗜𝗥𝗔𝗡-𝗠𝗗! ✨ 
+𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗛𝗜𝗥𝗔𝗡-𝗠𝗗! 
 ╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ」
-│◈ ʀᴜɴᴛɪᴍᴇ : ${runtime(process.uptime())}
-│◈ ᴏᴡɴᴇʀ ɴᴀᴍᴇ ::ʜɪʀᴀɴʏᴀ ꜱᴀᴛʜꜱᴀʀᴀ [ʜɪʀᴜᴡᴀ ᴛᴇᴄʜ]
-│◈ ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ : 94768698018
-│◈ ᴘʟᴀᴛꜰᴏʀᴍ : ${os.hostname()}
+│◈ ᴏᴡɴᴇʀ ɴᴀᴍᴇ :ʜɪʀᴀɴʏᴀ ꜱᴀᴛʜꜱᴀʀᴀ [ʜɪʀᴜᴡᴀ ᴛᴇᴄʜ]
+│◈ ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ : 94768608018
 │◈ ᴠᴇʀꜱɪᴏɴ : 2.0.0
 ╰──────────●●►
 ╭──────────●●►
@@ -93,6 +89,11 @@ let madeMenu = ` *👋 Hello ${pushname}*
  ${menu.owner}
 ╰───────────●●►
 ╭──────────●●►
+ ⚙️ *𝐎𝐭𝐡𝐞𝐫 𝐌𝐞𝐧𝐮*
+  ───────
+ ${menu.other}
+╰───────────●●►
+╭──────────●●►
  📰 *𝐍𝐄𝐖𝐒 𝐌𝐞𝐧𝐮*
   ───────
  .news (English)
@@ -107,9 +108,10 @@ let madeMenu = ` *👋 Hello ${pushname}*
   ───────
  ${menu.tools}
 ╰───────────●●►
-*👨‍💻> ⏤͟͟͞͞★❮ 𝙷𝙸𝚁𝙰𝙽 𝙼𝙳 ❯⏤͟͟͞͞★👨‍💻*
-`
+*👨‍💻ʜɪʀᴀɴ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ʜɪʀᴀɴʏᴀ ꜱᴀᴛʜꜱᴀʀᴀ👨‍💻*
 
+         > ⏤͟͟͞͞★❮ 𝙷𝙸𝚁𝙰𝙽 𝙼𝙳 ❯⏤͟͟͞͞★
+`
 await conn.sendMessage(from,{image:{url:config.ALIVE_IMG},caption:madeMenu},{quoted:mek})
 
 
