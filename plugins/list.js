@@ -6,15 +6,13 @@ const {runtime} = require('../lib/functions')
 cmd({
     pattern: "list",
     desc: "To get the list.",
-    react: "📄",
+    react: "📁",
     category: "main",
     filename: __filename
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
     
-const voice = {
-    menu: 'media/AUD-20240901-WA0161.mp3'
 }
 
 let menu = {
@@ -39,11 +37,11 @@ menu[commands[i].category] += `.${commands[i].pattern}\n`;
 
 let madeMenu = ` *👋 Hello ${pushname}*
 
-✨ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗡𝗔𝗗𝗘𝗘𝗡-𝗠𝗗! ✨ 
+✨ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗛𝗜𝗥𝗔𝗡-𝗠𝗗! ✨ 
 ╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ」
 │◈ ʀᴜɴᴛɪᴍᴇ : ${runtime(process.uptime())}
-│◈ ᴏᴡɴᴇʀ ɴᴀᴍᴇ :ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ [ᴅᴀʀᴋ ᴄʏʙᴇʀ ᴍᴀᴛʀɪx]
-│◈ ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ : 94711451319
+│◈ ᴏᴡɴᴇʀ ɴᴀᴍᴇ ::ʜɪʀᴀɴʏᴀ ꜱᴀᴛʜꜱᴀʀᴀ [ʜɪʀᴜᴡᴀ ᴛᴇᴄʜ]
+│◈ ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ : 94768698018
 │◈ ᴘʟᴀᴛꜰᴏʀᴍ : ${os.hostname()}
 │◈ ᴠᴇʀꜱɪᴏɴ : 2.0.0
 ╰──────────●●►
@@ -66,9 +64,7 @@ let madeMenu = ` *👋 Hello ${pushname}*
  🎬 *𝐌𝐎𝐕𝐈𝐄 𝐌𝐞𝐧𝐮*
   ───────
  .movie
- .cinerulk
  .cinesubz
- .ytsmx
  .ginisisila
  .sinhalasub
 ╰───────────●●►
@@ -112,14 +108,14 @@ let madeMenu = ` *👋 Hello ${pushname}*
   ───────
  ${menu.tools}
 ╰───────────●●►
-*👨‍💻ɴᴀᴅᴇᴇɴ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ👨‍💻*
+*👨‍💻> ⏤͟͟͞͞★❮ 𝙷𝙸𝚁𝙰𝙽 𝙼𝙳 ❯⏤͟͟͞͞★👨‍💻*
 `
 
-await conn.sendMessage(from, { audio: { url: voice.menu }, mimetype: 'audio/mp4', ptt: true }, { quoted: mek })
+await conn.sendMessage(from,{image:{url:config.ALIVE_IMG},caption:madeMenu},{quoted:mek})
 
-return await conn.sendMessage(from,{image: {url: `https://files.catbox.moe/2nmi9q.png`},caption:madeMenu},{quoted: mek})
+
 }catch(e){
 console.log(e)
-reply(`Error`)
+reply(`$(e)`)
 }
 })
