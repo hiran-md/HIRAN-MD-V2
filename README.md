@@ -26,6 +26,8 @@ HIRANYA-SATHSARA has been designed to make things easier and fun while using Wha
 <a href='https://shy-christy-hira-bot-f8f5eb15.koyeb.app/' target="_blank"><img alt='Get Your Session' src='https://img.shields.io/badge/-Pair Code 01-darkgreen?style=for-the-badge&logo=Whatsapp&logoColor=white'/< width=115 height=28/p></a>
 
 
+<h2 align="center">𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦</h2>
+
 <p align="center">
 <a href='https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-heroku ‎ deploy-blue?style=for-the-badge&logo=heroku&logoColor=white'/< width=150 height=28/p></a>
 
@@ -38,7 +40,7 @@ HIRANYA-SATHSARA has been designed to make things easier and fun while using Wha
 <p align="center">
 <a href='https://replit.com/~' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Replit Deploy-blue?style=for-the-badge&logo=replit&logoColor=white'/< width=150 height=28/p></a> <h6>
 
-## [Deploy on VPS or PC.](https://github.com/Nadeenpoorna-max/NADEEN-MD/blob/main/deploy-on-vps.md)
+## [Deploy on VPS or PC.](https://github.com/hiran-md/HIRAN-MD-V2/blob/main/deploy-on-vps.md)
   
 
   </a>
