@@ -6,7 +6,7 @@ HIRANYA-SATHSARA has been designed to make things easier and fun while using Wha
 <br>
 <p align="center">  
   <a href="https://files.catbox.moe/2nmi9q.png">
-    <img alt="hiran-md" height="500" src="https://github.com/hiran-md/HIRAN-MD/blob/bc6dd195adc1b53f56e2c1701f6c69d69c85d7ad/my_data/20241206_165508.jpg">
+    <img alt="hiran-md" height="600" src="https://github.com/hiran-md/HIRAN-MD-V2/blob/79e91e6aa36c112e896c52bcd5dcad0b7c300831/my_data/hiran-md.png">
     
   
   </a>
