@@ -87,7 +87,7 @@ let up = `🚀 *_ʜɪʀᴀɴ - ᴍᴅ ᴄᴏɴɴᴇᴄᴛᴇᴅ ꜱᴜᴄᴄᴇ�
 *💥 MADE BY:* ʜɪʀᴀɴʏᴀ ꜱᴀᴛʜꜱᴀʀᴀ
 *💥 MODE:* Public
 
-> Thank you for using *HIRAN-MD 💗.*
+> Thank you for using *HIRAN-MD 💗*
 
 > *💠Join WhatsApp Group - :* https://chat.whatsapp.com/CVlyZJewWh87iS3mcMfEBQ
 > *💠Repo - :* https://github.com/hiran-md/HIRAN-MD V2
