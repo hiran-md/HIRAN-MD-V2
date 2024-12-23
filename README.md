@@ -20,11 +20,29 @@ HIRANYA-SATHSARA has been designed to make things easier and fun while using Wha
 
 ## 🇱🇰 ***New bot, latest version 🎉 [new reposity](https://github.com/hiran-md/HIRAN-MD.git)***
 
- ## DEPLOYMENT METHODS
+ ## Session ID
 
 <p align="center">
 <a href='https://shy-christy-hira-bot-f8f5eb15.koyeb.app/' target="_blank"><img alt='Get Your Session' src='https://img.shields.io/badge/-Pair Code 01-darkgreen?style=for-the-badge&logo=Whatsapp&logoColor=white'/< width=115 height=28/p></a>
 
+
+<p align="center">
+<a href='https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-heroku ‎ deploy-blue?style=for-the-badge&logo=heroku&logoColor=white'/< width=150 height=28/p></a>
+
+<p align="center">
+<a href='https://railway.app/new' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-railway deploy-blue?style=for-the-badge&logo=railway&logoColor=white'/< width=150 height=28/p></a>
+
+<p align="center">
+<a href='https://dashboard.render.com/web/new' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Render deploy-blue?style=for-the-badge&logo=render&logoColor=white'/< width=150 height=28/p></a>
+
+<p align="center">
+<a href='https://replit.com/~' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Replit Deploy-blue?style=for-the-badge&logo=replit&logoColor=white'/< width=150 height=28/p></a> <h6>
+
+## [Deploy on VPS or PC.](https://github.com/Nadeenpoorna-max/NADEEN-MD/blob/main/deploy-on-vps.md)
+  
+
+  </a>
+</p>  
 
 ### DEVELOPER:
 **GET In Touch with The Owner**
