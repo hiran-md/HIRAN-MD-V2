@@ -15,10 +15,10 @@ HIRANYA-SATHSARA has been designed to make things easier and fun while using Wha
 
 <br>
 <br>
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=7600bc&center=true&width=910&height=100&lines=THANKS FOR USING +HIRAN-MD;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+HIRANYA+SATHSARA;👨‍💻HIRAN-MD-V1👨‍💻​" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=7600bc&center=true&width=910&height=100&lines=THANKS FOR USING +HIRAN-MD;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+HIRANYA+SATHSARA;👨‍💻HIRAN-MD-V2👨‍💻​" alt="Typing SVG" /></a>
   </p>
 
-## 🇱🇰 ***New bot, latest version 🎉 [new reposity](https://github.com/hiran-md/HIRAN-MD.git)***
+## 🇱🇰 ***New bot, latest version 🎉 [new reposity](https://github.com/hiran-md/HIRAN-MD-V2)***
 
  ## Session ID
 
