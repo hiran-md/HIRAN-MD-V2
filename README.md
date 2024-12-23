@@ -1,6 +1,6 @@
 ## HIRAN-MD👨‍💻 - A Javascript WhatsApp User Bot
 HIRANYA-SATHSARA has been designed to make things easier and fun while using WhatsApp. 👨‍💻❤️
-### `1.0.0 Version`
+### `2.0.0 Version`
 😎 `The main goal of creating this bot is to fully leverage WhatsApp and simplify its functionality.`
 
 <br>
@@ -38,10 +38,11 @@ HIRANYA-SATHSARA has been designed to make things easier and fun while using Wha
 
 ### SPECIAL THANKS ❤ 
 > Hiranya Sathsara
+> and lovely users 💗
 
 ## License
 
-The nadeen-md is made available under the [Apache license](https://github.com/Nadeenpoorna-max/NADEEN-MD/blob/main/LICENSE). 
+The hiran-md is made available under the [Apache license](https://github.com/Nadeenpoorna-max/NADEEN-MD/blob/main/LICENSE). 
 
 
 <!--
