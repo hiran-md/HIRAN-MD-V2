@@ -39,7 +39,7 @@ HIRANYA-SATHSARA has been designed to make things easier and fun while using Wha
 <a href='https://dashboard.render.com/web/new' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Render deploy-blue?style=for-the-badge&logo=render&logoColor=white'/< width=150 height=28/p></a>
 
 <p align="center">
-<a href='https://replit.com/~' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Replit Deploy-blue?style=for-the-badge&logo=replit&logoColor=white'/< width=150 height=28/p></a> <h6>
+<a href='https://replit.com/~' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Replit Deploy-blue?style=for-the-badge&logo=replit&logoColor=white'/< width=150 height=28/p></a>
 
 ## [Deploy on VPS or PC.](https://github.com/hiran-md/HIRAN-MD-V2/blob/main/deploy-on-vps.md)
   
