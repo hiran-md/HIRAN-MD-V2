@@ -94,7 +94,7 @@ let up = `🚀 *_ʜɪʀᴀɴ - ᴍᴅ ᴄᴏɴɴᴇᴄᴛᴇᴅ ꜱᴜᴄᴄᴇ�
 
 > *POWERED BY HIRUWA TECH™*
 
-*👨‍💻ʜɪʀᴀɴ - ᴍᴅ ᴍᴀᴅᴇ ʙʏ ʜɪʀᴀɴʏꜱ ꜱᴀᴛʜꜱᴀʀᴀ👨‍💻* `;
+*👨‍💻ʜɪʀᴀɴ - ᴍᴅ ᴍᴀᴅᴇ ʙʏ ʜɪʀᴀɴʏᴀ ꜱᴀᴛʜꜱᴀʀᴀ👨‍💻* `;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://raw.githubusercontent.com/hiran-md/DATA_BASE/refs/heads/main/autosticker/hiran-md.webp` }, caption: up })
 
