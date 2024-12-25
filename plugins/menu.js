@@ -1,6 +1,8 @@
 const config = require('../config')
 const {readEnv} = require('../lib/database')
 const {cmd , commands} = require('../command')
+const {runtime} = require('../lib/functions')
+const os = require("os")
 
 cmd({
     pattern: "menu",
@@ -37,6 +39,8 @@ let madeMenu = `👋 *Hello ${pushname} *
 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗛𝗜𝗥𝗔𝗡-𝗠𝗗! 
 ╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ」
 │◈ ᴏᴡɴᴇʀ ɴᴀᴍᴇ :ʜɪʀᴀɴʏᴀ ꜱᴀᴛʜꜱᴀʀᴀ [ʜɪʀᴜᴡᴀ ᴛᴇᴄʜ]
+│◈ ʀᴜɴᴛɪᴍᴇ : ${runtime(process.uptime())}
+│◈ ᴘʟᴀᴛꜰᴏʀᴍ : ${os.hostname()}
 │◈ ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ : 94768698018
 │◈ ᴠᴇʀꜱɪᴏɴ : 2.0.0
 ╰──────────●●►
