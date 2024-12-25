@@ -6,7 +6,7 @@ HIRANYA-SATHSARA has been designed to make things easier and fun while using Wha
 <br>
 <p align="center">  
   <a href="https://files.catbox.moe/2nmi9q.png">
-    <img alt="hiran-md" height="600" src="https://github.com/hiran-md/HIRAN-MD-V2/blob/79e91e6aa36c112e896c52bcd5dcad0b7c300831/my_data/hiran-md.png">
+    <img alt="hiran-md" height="400" src="https://github.com/hiran-md/HIRAN-MD-V2/blob/79e91e6aa36c112e896c52bcd5dcad0b7c300831/my_data/hiran-md.png">
     
   
   </a>
@@ -35,8 +35,9 @@ HIRANYA-SATHSARA has been designed to make things easier and fun while using Wha
 
 <h2 align="center">𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦</h2>
 
+
 <p align="center">
-<a href='https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=web-pair&repository=hiran-md%2FWeb-Pair&branch=main&instance_type=free&regions=was' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-heroku ‎ deploy-blue?style=for-the-badge&logo=heroku&logoColor=white'/< width=150 height=28/p></a>
+<a href='https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/apps/deploy?type=git&repository=github.com/hiran-md/HIRAN-MD-V2&branch=main&env[SESSION_ID]&env[OWNER_NUMBER]=94711451319&env[MONGODB_URI]&&env[OWNER_NAME]=Nadeen&env[KOYEB_API]&env[AUTO_READ_STATUS]=false&env[ANTI_BAD_WORD]=fuck,huththa,pakaya&env[ALWAYS_ONLINE]=true&env[PREFIX]=.&env[ALIVE_IMG]=https://telegra.ph/file/c7ce95554df8fcfa85680.jpg&env[ALIVE_MSJ]=IAmOnline&env[AUTO_RESTART]=true&env[SUDO]=94711451319&env[READ_MESSAGE]=false&env[DISABLE_PM]=false&env[DL_SIZE]=500&env[WORK_TYPE]=public&env[THEME]=NADEEN-MD&env[PACK_INFO]=nadeen;madebynadeenpoorna&name=nadeen-md&env[KOYEB_NAME]=nadeen-md&env[ANTILINK_VALUES]=chat.whatsapp.com&env[PORT]=8000' target="_blank"><img alt='Koyeb' src='https://img.shields.io/badge/-koyeb deploy-blue?style=for-the-badge&logo=koyeb&logoColor=white'/< width=150 height=28/p></a>
 
 <p align="center">
 <a href='https://railway.app/new' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-railway deploy-blue?style=for-the-badge&logo=railway&logoColor=white'/< width=150 height=28/p></a>
