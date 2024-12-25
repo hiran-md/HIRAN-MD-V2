@@ -178,7 +178,7 @@ cmd({
     pattern: "fit",
     react: "📥",
     dontAddCommandList: true,
-    category: "search"
+    category: "search",
     filename: __filename
 }, async (conn, mek, m, { from, q, isMe, reply }) => {
 	
