@@ -10,7 +10,7 @@ cmd({
     use: '.movie <query>',
     react: "🔎",
     desc: "Moive downloader",
-    category: "movie",
+    category: "search",
     filename: __filename
 
 },
@@ -54,7 +54,7 @@ cmd({
     use: '.moviedl <url>',
     react: "🎥",
     desc: "download movies from sinhalasub.lk",
-    //category: "search",
+    category: "search",
     filename: __filename
 
 },
@@ -85,7 +85,7 @@ if (sadas.length < 1) return await conn.sendMessage(from, { text: "🚩 *I could
         type: 1
           },
 		 
-	//{buttonId: prefix + 'detailss ' + q, buttonText: {displayText: 'Details send'}, type: 1}	 
+	{buttonId: prefix + 'detailss ' + q, buttonText: {displayText: 'Details send'}, type: 1}	 
 		 
 		 
 		 
@@ -178,6 +178,7 @@ cmd({
     pattern: "fit",
     react: "📥",
     dontAddCommandList: true,
+    category: "search"
     filename: __filename
 }, async (conn, mek, m, { from, q, isMe, reply }) => {
 	
