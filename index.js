@@ -90,7 +90,7 @@ let up = `🚀 *_ʜɪʀᴀɴ - ᴍᴅ ᴄᴏɴɴᴇᴄᴛᴇᴅ ꜱᴜᴄᴄᴇ�
 > Thank you for using *HIRAN-MD 💗*
 
 > *💠Join WhatsApp Group - :* https://chat.whatsapp.com/CVlyZJewWh87iS3mcMfEBQ
-> *💠Repo - :* https://github.com/hiran-md/HIRAN-MD V2
+> *💠Repo - :* https://github.com/hiran-md/HIRAN-MD-V2
 
 > *POWERED BY HIRUWA TECH™*
 
