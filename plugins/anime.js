@@ -12,7 +12,7 @@ cmd({
     alias: ["imgloli"],
     react: '🧧',
     desc: "Download anime loli images.",
-    category: "anime",
+    category: "other",
     use: '.loli',
     filename: __filename
 },
@@ -22,7 +22,7 @@ try{
 let res = await axios.get('https://api.lolicon.app/setu/v2?num=1&r18=0&tag=lolicon')
 let wm = `🧧 Random loli image
 
-*©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ꜱᴀᴅᴇᴇꜱʜᴀ ᴄᴏᴅᴇʀ..🧑🏻‍💻*`
+*©ʜɪʀᴀɴ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ʜɪʀᴀɴʏᴀ ꜱᴀᴛʜꜱᴀʀᴀ..🧑🏻‍💻*`
 await conn.sendMessage(from, { image: { url: res.data.data[0].urls.original }, caption: wm}, { quoted: mek })
 } catch (e) {
 reply(cants)
@@ -36,7 +36,7 @@ cmd({
     alias: ["imgwaifu"],
     react: '🧧',
     desc: "Download anime waifu images.",
-    category: "anime",
+    category: "other",
     use: '.waifu',
     filename: __filename
 },
@@ -45,7 +45,7 @@ try{
 let res = await axios.get('https://api.waifu.pics/sfw/waifu')
 let wm = `🧧 Random Waifu image
 
-*©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ꜱᴀᴅᴇᴇꜱʜᴀ ᴄᴏᴅᴇʀ..🧑🏻‍💻*`
+*©ʜɪʀᴀɴ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ʜɪʀᴀɴʏᴀ ꜱᴀᴛʜꜱᴀʀᴀ..🧑🏻‍💻*`
 await conn.sendMessage(from, { image: { url: res.data.url }, caption: wm}, { quoted: mek })
 } catch (e) {
 reply(cants)
@@ -59,7 +59,7 @@ cmd({
     alias: ["imgneko"],
     react: '💫',
     desc: "Download anime neko images.",
-    category: "anime",
+    category: "other",
     use: '.neko',
     filename: __filename
 },
@@ -68,7 +68,7 @@ try{
 let res = await axios.get('https://api.waifu.pics/sfw/neko')
 let wm = `🧧 Random neko image
 
-*©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ꜱᴀᴅᴇᴇꜱʜᴀ ᴄᴏᴅᴇʀ..🧑🏻‍💻*`
+*©ʜɪʀᴀɴ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ʜɪʀᴀɴʏᴀ ꜱᴀᴛʜꜱᴀʀᴀ..🧑🏻‍💻*`
 await conn.sendMessage(from, { image: { url: res.data.url  }, caption: wm}, { quoted: mek })
 } catch (e) {
 reply(cants)
@@ -82,7 +82,7 @@ cmd({
     alias: ["imgmegumin"],
     react: '🧧',
     desc: "Download anime megumin images.",
-    category: "anime",
+    category: "other",
     use: '.megumin',
     filename: __filename
 },
@@ -91,7 +91,7 @@ try{
 let res = await axios.get('https://api.waifu.pics/sfw/megumin')
 let wm = `🧧 Random megumin image
 
-*©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ꜱᴀᴅᴇᴇꜱʜᴀ ᴄᴏᴅᴇʀ..🧑🏻‍💻*`
+*©ʜɪʀᴀɴ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ʜɪʀᴀɴʏᴀ ꜱᴀᴛʜꜱᴀʀᴀ..🧑🏻‍💻*`
 await conn.sendMessage(from, { image: { url: res.data.url }, caption: wm}, { quoted: mek })
 } catch (e) {
 reply(cants)
@@ -105,7 +105,7 @@ cmd({
     alias: ["imgmaid"],
     react: '💫',
     desc: "Download anime maid images.",
-    category: "anime",
+    category: "other",
     use: '.maid',
     filename: __filename
 },
@@ -114,7 +114,7 @@ try{
 let res = await axios.get('https://api.waifu.im/search/?included_tags=maid')
 let wm = `🧧 Random maid image
 
-*©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ꜱᴀᴅᴇᴇꜱʜᴀ ᴄᴏᴅᴇʀ..🧑🏻‍💻*`
+*©ʜɪʀᴀɴ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ʜɪʀᴀɴʏᴀ ꜱᴀᴛʜꜱᴀʀᴀ..🧑🏻‍💻*`
 await conn.sendMessage(from, { image: { url: res.data.images[0].url  }, caption: wm}, { quoted: mek })
 } catch (e) {
 reply(cants)
@@ -128,7 +128,7 @@ cmd({
     alias: ["imgawoo"],
     react: '🧧',
     desc: "Download anime awoo images.",
-    category: "anime",
+    category: "other",
     use: '.awoo',
     filename: __filename
 },
@@ -137,7 +137,7 @@ try{
 let res = await axios.get('https://api.waifu.pics/sfw/awoo')
 let wm = `🧧 Random awoo image
 
-*©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ꜱᴀᴅᴇᴇꜱʜᴀ ᴄᴏᴅᴇʀ..🧑🏻‍💻*`
+*©ʜɪʀᴀɴ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ʜɪʀᴀɴʏᴀ ꜱᴀᴛʜꜱᴀʀᴀ..🧑🏻‍💻*`
 await conn.sendMessage(from, { image: { url: res.data.url }, caption: wm}, { quoted: mek })
 } catch (e) {
 reply(cants)
