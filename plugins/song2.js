@@ -22,7 +22,7 @@ if(yt.results.length < 1) return reply("Results is not found !")
 
 let yts = yt.results[0]  
 const ytdl = await ytmp3(yts.url)		
-let ytmsg = `🎶 NADEEN-MD SONG DOWNLOADER 🎶
+let ytmsg = `🎶 ʜɪʀᴀɴ-ᴍᴅ ꜱᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ 🎶
 
 
 🎵 *TITLE :* ${yts.title}
