@@ -5,7 +5,7 @@ const {runtime} = require('../lib/functions')
 const os = require("os")
 
 cmd({
-    pattern: "menu",
+    pattern: "list",
     desc: "get cmd list",
     category: "main",
     react: "📁",
