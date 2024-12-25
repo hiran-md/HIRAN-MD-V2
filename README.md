@@ -28,6 +28,9 @@ HIRANYA-SATHSARA has been designed to make things easier and fun while using Wha
 <p align="center">
 <a href='https://session-production-d7b5.up.railway.app/' target="_blank"><img alt='Get Your Session' src='https://img.shields.io/badge/-Pair Code 02-darkgreen?style=for-the-badge&logo=Whatsapp&logoColor=white'/< width=115 height=28/p></a>
 
+<p align="center">
+<a href='https://session-production-d7b5.up.railway.app/pair' target="_blank"><img alt='Get Your Session' src='https://img.shields.io/badge/-Pair Code 03-darkgreen?style=for-the-badge&logo=Whatsapp&logoColor=white'/< width=115 height=28/p></a>
+
 
 
 <h2 align="center">𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦</h2>
