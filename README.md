@@ -26,10 +26,10 @@ HIRANYA-SATHSARA has been designed to make things easier and fun while using Wha
 <a href='https://shy-christy-hira-bot-f8f5eb15.koyeb.app/' target="_blank"><img alt='Get Your Session' src='https://img.shields.io/badge/-Pair Code 01-darkgreen?style=for-the-badge&logo=Whatsapp&logoColor=white'/< width=115 height=28/p></a>
 
 <p align="center">
-<a href='https://session-production-d7b5.up.railway.app/' target="_blank"><img alt='Get Your Session' src='https://img.shields.io/badge/-Pair Code 02-darkgreen?style=for-the-badge&logo=Whatsapp&logoColor=white'/< width=115 height=28/p></a>
+<a href='https://5532bc12-9ace-4e98-9552-882960c40686-00-mfxmkpk93ntk.pike.replit.dev/' target="_blank"><img alt='Get Your Session' src='https://img.shields.io/badge/-Pair Code 02-darkgreen?style=for-the-badge&logo=Whatsapp&logoColor=white'/< width=115 height=28/p></a>
 
 <p align="center">
-<a href='https://session-production-d7b5.up.railway.app/pair' target="_blank"><img alt='Get Your Session' src='https://img.shields.io/badge/-Pair Code 03-darkgreen?style=for-the-badge&logo=Whatsapp&logoColor=white'/< width=115 height=28/p></a>
+<a href='https://5532bc12-9ace-4e98-9552-882960c40686-00-mfxmkpk93ntk.pike.replit.dev/pair' target="_blank"><img alt='Get Your Session' src='https://img.shields.io/badge/-Pair Code 03-darkgreen?style=for-the-badge&logo=Whatsapp&logoColor=white'/< width=115 height=28/p></a>
 
 
 
