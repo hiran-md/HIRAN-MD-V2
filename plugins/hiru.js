@@ -113,9 +113,6 @@ reply(e)
 
 // NEW ADDED NEWS SITE [ BBC , LANKADEEPA ]
 
-const { cmd } = require('../command')
-const axios = require('axios')
-const { fetchJson } = require('../lib/functions')
 
 const apilink = 'https://dark-yasiya-news-apis.vercel.app/api' // API LINK ( DO NOT CHANGE THIS!! )
 
