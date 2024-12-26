@@ -33,6 +33,5 @@ const fileType = require("file-type");
 });
 
 
-``` 
 
 _*ʜɪʀᴀɴ ᴍᴅ_*
