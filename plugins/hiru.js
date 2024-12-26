@@ -113,7 +113,6 @@ reply(e)
 
 // NEW ADDED NEWS SITE [ BBC , LANKADEEPA ]
 
-const config = require('../config')
 const { cmd } = require('../command')
 const axios = require('axios')
 const { fetchJson } = require('../lib/functions')
