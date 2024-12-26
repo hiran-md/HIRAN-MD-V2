@@ -5,12 +5,12 @@ const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, 
 
 
 cmd({
-    pattern: "movie1",
+    pattern: "movie",
     alias: ["movi","tests"],
     use: '.movie <query>',
     react: "🔎",
     desc: "Moive downloader",
-    category: "search",
+    category: "movie",
     filename: __filename
 
 },
@@ -156,7 +156,7 @@ let mfg = `*DOWNLOAD MOVIE*
         
       ]
         const buttonMessage = {
-		image: {url: 'https://telegra.ph/file/091fc81528af5881cdf47.jpg'},	
+		image: {url: 'config.ALIVE_IMG'},	
             caption: mfg,
             footer: config.FOOTER,
             buttons: buttons,
@@ -210,7 +210,7 @@ cmd({
      
  *Darksadas YT*`,
             mimetype: "video/mp4",
-            fileName: `${datas}🎬DARK SHUTER🎬.mp4`,
+            fileName: `${datas}🎬ᴴᴵᴿᴬᴺ ᴹᴰ🎬.mp4`,
         };
 
         await conn.sendMessage(config.JID, message);
