@@ -24,6 +24,7 @@ tools: '',
 search: '',
 movie: '',
 ai: '',
+news: '',
 fun: '',
 voice: '',
 other: ''
@@ -98,10 +99,8 @@ let madeMenu = `👋 *Hello ${pushname} *
 ╭──────────●●►
  📰 *𝐍𝐄𝐖𝐒 𝐌𝐞𝐧𝐮*
   ───────
- .news (English)
+ ${menu.news}
  .derananews
- .sirasanews
- .hirunews
  .startnews (auto news on)
  .stopnews (auto news off)
 ╰───────────●●►
