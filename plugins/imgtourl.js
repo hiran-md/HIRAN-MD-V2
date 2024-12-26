@@ -31,7 +31,3 @@ const fileType = require("file-type");
     reply("ErROR.....");
 }
 });
-
-
-
-_*ʜɪʀᴀɴ ᴍᴅ_*
