@@ -80,7 +80,7 @@ console.log('HIRAN-MD Bot connected to whatsapp ✅')
 
 let up = `🚀 *_ʜɪʀᴀɴ - ᴍᴅ ᴄᴏɴɴᴇᴄᴛᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ!_* ✅ 
 
---- *💀🧨 _Welcome to 𝗛𝗜𝗥𝗔𝗡-𝗠𝗗!_* 🧨💀 
+--- *💀🧨 _ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ> ⏤͟͟͞͞★❮ 𝗛𝗜𝗥𝗔𝗡 𝗠𝗗 ❯⏤͟͟͞͞★_* 🧨💀 
 
 *💥 PREFIX:* ${prefix}
 *💥 OWNER:* 94768698018
@@ -96,7 +96,7 @@ let up = `🚀 *_ʜɪʀᴀɴ - ᴍᴅ ᴄᴏɴɴᴇᴄᴛᴇᴅ ꜱᴜᴄᴄᴇ�
 
 *👨‍💻ʜɪʀᴀɴ - ᴍᴅ ᴍᴀᴅᴇ ʙʏ ʜɪʀᴀɴʏᴀ ꜱᴀᴛʜꜱᴀʀᴀ👨‍💻* `;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://raw.githubusercontent.com/hiran-md/DATA_BASE/refs/heads/main/autosticker/hiran-md.webp` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `config.ALIVE_IMG` }, caption: up })
 
 }
 })
