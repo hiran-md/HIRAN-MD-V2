@@ -2,7 +2,7 @@ const { cmd } = require('../command');
 const axios = require('axios');
 const fs = require('fs').promises;
 const path = require('path');
-// Powerd by Thenux-AI & NETHUMAX
+
 cmd({
     pattern: "firemovie",
     alias: ["moviefire", "moviesearch"],
@@ -16,7 +16,7 @@ cmd({
         // Check if query is provided
         if (!q) {
             return await reply(`
-*🎬 FIRE MOVIE SEARCH*
+*🎬 𝗛𝗜𝗥𝗔𝗡-〽️𝗗 𝗦𝗘𝗔𝗥𝗖𝗛*
 
 Usage: .firemovie <movie name>
 
@@ -66,7 +66,7 @@ ${movies.map((movie, index) => `*${index + 1}. ${movie.title} (${movie.year})*
 *乂 REPLY THE NUMBER FOR DETAILS 乂* 
 └───────────────────────────────────
 
-> *©ʜɪʀᴀɴ ᴍᴅ ʙʏ ʜɪʀᴀɴʏᴀ*`;
+> *ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʜɪʀᴀɴʏᴀ ꜱᴀᴛʜꜱᴀʀᴀ*`;
 
         // Send the movie list with context
         const sentMsg = await conn.sendMessage(
@@ -75,7 +75,7 @@ ${movies.map((movie, index) => `*${index + 1}. ${movie.title} (${movie.year})*
                 text: desc,
                 contextInfo: {
                     externalAdReply: {
-                        title: `HIRAN-MD Movie Search`,
+                        title: `HIRAN-〽️D Movie Search`,
                         body: `Search results for: ${q}`,
                         thumbnailUrl: movies[0].image,
                         sourceUrl: movies[0].link,
@@ -126,23 +126,18 @@ ${movies.map((movie, index) => `*${index + 1}. ${movie.title} (${movie.year})*
 
                         // Prepare detailed movie message
                         const detailMessage = `
-*🎬 MOVIE DETAILS*
+*🎬 〽️OVIE DETAILS 🎬*
 
-📽️ *Title*: ${movieDetails.title}\n
-📅 *Release Date*: ${movieDetails.date}\n
-⏱️ *Duration*: ${movieDetails.duration}\n
-
-🏷️ *Categories*: 
-${movieDetails.category.join(", ")}
-
-🎥 *Director*: ${movieDetails.director}\n
-⭐ *TMDB Rating*: ${movieDetails.tmdbRate}
-
-*🌟 CAST*:
+📽️ *ᴛɪᴛʟᴇ*: ${movieDetails.title}\n
+📅 *ʀᴇʟᴇᴀꜱᴇ ᴅᴀᴛᴇ*: ${movieDetails.date}\n
+⏱️ *ᴅᴜʀᴀᴛɪᴏɴ*: ${movieDetails.duration}\n
+🏷️ *ᴄᴀᴛᴇɢᴏʀʏ*: ${movieDetails.category.join(", ")}
+🎥 *ᴅɪʀᴇᴄᴛᴏʀ*: ${movieDetails.director}\n
+⭐ *ɪᴍᴅʙ ʀᴀᴛɪɴɢ*: ${movieDetails.tmdbRate}
+🌟 *ᴄᴀꜱᴛ*:
 ${movieDetails.cast.slice(0, 5).map(actor => `• ${actor.name}`).join('\n')}
 
-
-> Powered by Fire Movies Hub`;
+> Powered by HIRAN-〽️D`;
 
                         // Send movie details with main image
                         const mediaMessage = await conn.sendMessage(from, {
@@ -166,7 +161,7 @@ ${movieDetails.dl_links.map((link, index) =>
     `*${index + 1}.* ${link.quality} (${link.size})`
 ).join('\n')}
 
-> Choose your preferred download option`,
+> ᴄʜᴏᴏꜱᴇ ʏᴏᴜʀ ᴘʀᴇꜰᴇʀʀᴇᴅ ᴅᴏᴡɴʟᴏᴀᴅ ᴏᴘᴛɪᴏɴ`,
                             contextInfo: {
                                 externalAdReply: {
                                     title: "Movie Download",
@@ -219,8 +214,15 @@ ${movieDetails.dl_links.map((link, index) =>
                                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
                             }
                         });
-                        
-                        const filename = `${global.movieDownloadDetails}${selectedDownload.quality} 🎬𝗛𝗜𝗥𝗔𝗡-𝗠𝗗 𝗠𝗢𝗩𝗜𝗘-𝗗𝗟🎬.mp4`;
+
+                     
+                    // Generate a random filename
+                    const sanitizedTitle = global.movieDownloadDetails.title
+                            .replace(/[^a-zA-Z0-9]/g, '_')
+                            .replace(/__+/g, '_')
+                            .substring(0, 50);
+                      
+                        const filename = `🎬𝗛𝗜𝗥𝗔𝗡-〽️𝗗 〽️𝗢𝗩𝗜𝗘-𝗗𝗟🎬${sanitizedTitle}${selectedDownload.quality}.mp4`;
                         const tempFilePath = path.join(__dirname, 'temp', filename);
 
                         // Ensure temp directory exists
@@ -233,16 +235,14 @@ ${movieDetails.dl_links.map((link, index) =>
                         // Send the file
                         const fileMessage = await conn.sendMessage(from, {
                             document: { 
-                                url: tempFilePath 
-                            },
+                                url: tempFilePath },
                             mimetype: 'video/mp4',
                             fileName: filename,
                             caption: `
-*𝙼𝙾𝚅𝙸𝙴 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝙳 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻 !*
-*Title*: ${global.movieDownloadDetails.title}
-*Quality*: ${selectedDownload.quality}
-*Size*: ${selectedDownload.size}
-> *ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʜɪʀᴀɴʏᴀ ꜱᴀᴛʜꜱᴀʀᴀ*`
+*ᴛɪᴛʟᴇ*: ${global.movieDownloadDetails.title}
+*Qᴜᴀʟɪᴛʏ*: ${selectedDownload.quality}
+*ꜱɪᴢᴇ*: ${selectedDownload.size}
+*ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʜɪʀᴀɴʏᴀ ꜱᴀᴛʜꜱᴀʀᴀ*`
                         }, { quoted: mek });
 
                         // Clean up temporary file after a delay
